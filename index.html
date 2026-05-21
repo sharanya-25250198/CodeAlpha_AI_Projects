@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>AI Music Generator</title>
+
+<link rel="stylesheet"
+href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="music-card">
+
+<h1>🎵 AI Music Generator ✨</h1>
+
+<p>
+Select your mood and generate music
+</p>
+
+<select id="mood">
+
+<option value="happy">
+😀 Happy
+</option>
+
+<option value="relax">
+😌 Relax
+</option>
+
+<option value="sad">
+😢 Sad
+</option>
+
+<option value="romantic">
+💕 Romantic
+</option>
+
+</select>
+
+<div class="visualizer">
+
+<div class="bar"></div>
+<div class="bar"></div>
+<div class="bar"></div>
+<div class="bar"></div>
+<div class="bar"></div>
+
+</div>
+
+<button id="playBtn">
+
+▶️ Generate Music
+
+</button>
+
+<button id="pauseBtn">
+
+⏸ Pause
+
+</button>
+
+<audio id="audio"></audio>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
