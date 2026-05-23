@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd"></script>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+content="width=device-width, initial-scale=1.0">
+
+<title>AI Object Detection</title>
+
+<link rel="stylesheet"
+href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="card">
+
+<h1>
+🎯 AI Object Detection
+</h1>
+
+<p>
+Upload an image and detect objects instantly ✨
+</p>
+
+<input
+type="file"
+id="imageUpload"
+accept="image/*">
+
+<div class="preview">
+
+<img
+id="previewImage"
+style="display:none;"
+>
+
+</div>
+
+<button id="detectBtn">
+🚀 Detect Objects
+</button>
+
+<div id="result">
+🤖 Detection results will appear here
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
